@@ -23,6 +23,7 @@ class Stack
 
   def initialize
     @top = nil
+    @size = 0
   end
 
   def add value 
@@ -34,12 +35,18 @@ class Stack
       newItem.setPrev @top
       @top = newItem
     end
+    @size+=1
   end
 
   def remove
+    @size-=1
     val = @top.getVal
     @top = @top.getPrev
     return val
+  end
+
+  def size
+    @size
   end
 
   def print
