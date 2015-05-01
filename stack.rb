@@ -7,15 +7,15 @@ class Stack
       @prev = nil
     end
 
-    def setPrev node
+    def set_prev node
       @prev = node
     end
 
-    def getPrev
+    def get_prev
       @prev
     end
 
-    def getVal
+    def get_val
       @value
     end
 
@@ -27,21 +27,20 @@ class Stack
   end
 
   def add value 
-    newItem = Node.new value
+    new_item = Node.new value
     if @top.nil?
-      @top = newItem
-      @top = newItem
+      @top = new_item
     else
-      newItem.setPrev @top
-      @top = newItem
+      new_item.set_prev @top
+      @top = new_item
     end
     @size+=1
   end
 
   def remove
     @size-=1
-    val = @top.getVal
-    @top = @top.getPrev
+    val = @top.get_val
+    @top = @top.get_prev
     return val
   end
 
@@ -52,8 +51,8 @@ class Stack
   def print
     top = @top
     until top.nil?
-      puts top.getVal
-      top = top.getPrev
+      puts top.get_val
+      top = top.get_prev
     end
   end
 
