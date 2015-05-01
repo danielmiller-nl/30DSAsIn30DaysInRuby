@@ -22,8 +22,8 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * Splay Tree
 * Hash Tables/ Maps/ Sets/ Dictionary
 
-* Tree Search/Find/Etc
-* Binary Search
+* ~~Tree Search/Find/Etc~~
+* ~~Binary Search~~
 * Depth-First Search
 * Breadth-First Search
 * Dijkstra's algorithm
@@ -35,7 +35,7 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * Bubble Sort
 * Insertion Sort
 * Selection Sort
-* ~Quick Sort (not yet complete, currently broken)~
+* ~~Quick Sort~~
 * Heap Sort
 * Merge Sort
 * Bucket Sort
