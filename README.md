@@ -3,7 +3,8 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 
 ## Checklist
 
-* LinkedList
+* ~~LinkedList~~
+* DoublyLinkedList
 * ~~Stack~~
 * Queue
 * Priority Queue
