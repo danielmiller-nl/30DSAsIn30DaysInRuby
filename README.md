@@ -38,6 +38,6 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * Selection Sort
 * ~~Quick Sort~~
 * Heap Sort
-* Merge Sort
+* ~~Merge Sort~~
 * Bucket Sort
 * Radix Sort
