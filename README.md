@@ -13,7 +13,7 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * Adjacency List
 * Matrix
 * Heap
-* Binary Trees
+* ~~Binary Trees~~
 * n-ary Trees
 * Tries
 * Vectors / ArrayLists
