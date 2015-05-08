@@ -7,11 +7,11 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * DoublyLinkedList
 * ~~Stack~~
 * Queue
-* Priority Queue
+* ~~Priority Queue~~
 * Graph implemented with: 
-* Object Pointers
-* Adjacency List
-* Matrix
+* - Object Pointers
+* - Adjacency List
+* - Matrix
 * Heap
 * ~~Binary Trees~~
 * n-ary Trees
@@ -33,7 +33,7 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * Dynamic programming / memoization
 * Greediness
 
-* Bubble Sort
+* ~~Bubble Sort~~
 * Insertion Sort
 * Selection Sort
 * ~~Quick Sort~~

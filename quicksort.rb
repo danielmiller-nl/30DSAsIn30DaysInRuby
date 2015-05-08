@@ -3,9 +3,7 @@ def quickSort array,lo=0,hi=array.length
   return if lo+1 >= hi
 
   def swap array,a,b 
-    temp = array[a]
-    array[a] = array[b]
-    array[b] = temp
+    array[a],array[b] = array[b],array[a]
   end
 
   left = lo+1
