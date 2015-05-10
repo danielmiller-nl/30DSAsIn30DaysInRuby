@@ -34,7 +34,7 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * Greediness
 
 * ~~Bubble Sort~~
-* Insertion Sort
+* ~~Insertion Sort~~
 * Selection Sort
 * ~~Quick Sort~~
 * Heap Sort
