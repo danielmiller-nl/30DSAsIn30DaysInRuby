@@ -6,12 +6,12 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * ~~LinkedList~~
 * DoublyLinkedList
 * ~~Stack~~
-* Queue
+* ~~Queue~~
 * ~~Priority Queue~~
 * Graph implemented with: 
-* - Object Pointers
-* - Adjacency List
-* - Matrix
+  * Object Pointers
+  * Adjacency List
+  * Matrix
 * Heap
 * ~~Binary Trees~~
 * n-ary Trees
