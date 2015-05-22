@@ -16,13 +16,13 @@ class Graph
     @nodes.remove node 
   end
 
-  def had_edge from_node,to_node
-    @nodes.get_sub(from_node,to_node) && @nodes.get_sub(from_node,to_node) == @nodes.get(from_node)
+  def has_edge from_node,to_node
+    @nodes.get_sub(from_node,to_node) && (@nodes.get_sub(from_node,to_node)[from_node] == @nodes.get(from_node))
   end
 
   def add_edge from_node,to_node
-    @nodes.get(from_node).add(to_node,(@nodes.get to_node))
-    @nodes.get(to_node).add(from_node,(@nodes.get from_node))
+    @nodes.get(from_node)[to_node] = @nodes.get to_node
+    @nodes.get(to_node)[from_node] = @nodes.get from_node
   end
 
   def remove_edge from_node,to_node

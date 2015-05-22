@@ -9,7 +9,7 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 * ~~Queue~~
 * ~~Priority Queue~~
 * Graph implemented with: 
-  * Object Pointers
+  * ~~Object Pointers~~
   * Adjacency List
   * Matrix
 * ~~Min Heap~~
