@@ -4,7 +4,7 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
 ## Checklist
 
 * ~~LinkedList~~
-* DoublyLinkedList
+* ~~DoublyLinkedList~~
 * ~~Stack~~
 * ~~Queue~~
 * ~~Priority Queue~~
@@ -14,6 +14,7 @@ The goal is to write 30 common Data Structures and/or Algorithms in 30 Days in R
   * Matrix
 * ~~Min Heap~~
 * ~~Binary Trees~~
+* Self Balancing Binary Tree
 * n-ary Trees
 * Tries
 * Vectors / ArrayLists
